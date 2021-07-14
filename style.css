@@ -5,4 +5,44 @@
 /*--------NAVBAR------------*/
 nav {
     background:rgb(51, 108, 231);
+    border-bottom: 1px solid #fff;
+}
+.logo-club {
+    width: 30px;
+}
+
+
+/*---------HEADER----------*/
+header {
+    background: linear-gradient(rgb(51, 108, 231), white);
+    height: 250px;
+    border-bottom: 1px solid rgb(51, 108, 231);
+}
+.title-1 {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.sitation {
+    font-size: 0.6rem;
+    text-align: center;
+}
+.logo-header {
+    width: 185px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 768px){
+    
+    header {
+        height: 320px;
+    }
+    
+    .title-1 {
+        font-size: 4rem;
+    }
+    .sitation {
+        font-size: 1.3rem;
+    }
+    
 }
