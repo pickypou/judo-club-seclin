@@ -6,12 +6,26 @@
     background:rgb(238, 16, 9);
     margin: 0 auto;
 }
+p {
+    font-size: 0.8rem;
+}
+ul ol li {
+    font-size: small;
+}
+
 @media screen and (min-width:768px){
     .divider {
         width:160px;
     }
+    p {
+        font-size: 1rem;
+    }
+     ul ol li {
+        font-size: 1rem;
+    }
     
 }
+
 
 
 /*--------NAVBAR------------*/
@@ -29,7 +43,7 @@ header {
     height: 250px;
     border-bottom: 1px solid rgb(51, 108, 231);
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 .title-1 {
     text-align: center;
@@ -64,22 +78,32 @@ header {
     text-align: center;
     color: rgb(51, 108, 231);
     font-size: 1rem;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 @media screen and (min-width:768px){
     .aside {
         font-size: 1.6rem;
     }
+    aside {
+        margin:0 auto;
+    }
     
 }
 /*------------CONTENT---------------*/
+
 .title-2 {
     text-align: center;
     color:rgb(51, 108, 231) ;
     font-size: 1rem;
+    margin-top: 35px;
 }
+
+/*----------ACTUALITES-----------*/
 .card-img-top{
         display: none;
+    }
+    .card-text {
+        font-size: 0.6rem;
     }
 
 @media screen and (min-width:768px){
@@ -91,7 +115,19 @@ header {
     }
     .card-img-top{
         display: block;
+    } 
+    .card-text {
+        font-size: 1rem;
     }
-    
-    
+}
+/*------------LE CLUB--------------*/
+.memberOffice ul li {
+    list-style: none;
+   font-size: 1rem;
+}
+.colunms{
+    display: flex;
+}   
+.office {
+    text-align: center;
 }
