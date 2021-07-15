@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/png" href="images/logoJudo.png">
 </head>
@@ -55,6 +56,12 @@
         <aside class="col-sm-12 col-md-2">
             <h2 class="aside ">Documents</h2>
             <div class="divider"></div>
+           <ul>
+               <li class="list-doc"><a href="doc/tarifsBabys.pdf">Tarifs baby-judo</a></li>
+               <li class="list-doc"><a href="doc/tarifsJudo.pdf">tarifs judokas</a></li>
+               <li class="list-doc"><a href="doc/tarifsTaisoEtSelfdefense.pdf">tarifs taïso <br> self defence</a></li>
+               <li class="list-doc"><a href="doc/REGLEMENT INTERIEUR DU JUDO JUJITSU CLUB DE SECLIN.pdf">Reglement interieur</a></li>
+           </ul>
         </aside>
 
         <section class="col-sm-12 col-md-9 content">
@@ -167,6 +174,161 @@
 
             <h2 class="title-2" id="cours">Les cours</h2>
             <div class="divider"></div>
+            <article class="lesCours">
+                <div>
+                    <p>Les cours ont lieu tous les samedis matin pour les Baby-judo. Pour les catégories suivante, les
+                        cours ont
+                        lieu deux fois semaine le lundi et le jeudi. Les cours de taîso se déroulent le mardi soir et
+                        le
+                        samedi matin et pour le self défense les cours seront le jeudi de 19h30 à 21h00</p>
+                </div>
+                <div class="divider"></div>
+                <div class="card text-center">
+                    <div class="card-header">
+                    Au programme : des jeux , des jeux et des jeux…..
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Baby judo 4-5 ans</h5>
+                        <p class="card-text">L’éveil judo a pour but de faciliter les
+                        futurs
+                        apprentissages du judo, de prédisposer l’enfant à de futures qualités
+                        sociales et à contribuer à son développement physique et intellectuel.<br>
+                        L’enfant
+                        pourra ainsi travailler sa motricité, son équilibration, sa locomotion, la préhension de
+                        manière
+                        individuelle ou en groupe.
+                        Les séances sont de 45 minutes à une heure. Le fonctionnement sous forme de jeu et la durée
+                        de
+                        la séance permettent de maintenir l’attention de nos petits judokas.<br> Les baby’s invitent
+                        leurs
+                        parents 1 ou 2 séances par an à participer à un cours.</p>
+                       
+                    </div>
+                    <div class="card-footer text-muted">
+                        Les cours de Baby-judo sont assurés par : <br> Emanuelle Vandenstorme ceinture noire 3ième
+                        dan
+                        assisté de Ludovic Spysschaert ceinture noire 1ere dan
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <div class="card-header">
+                    Qu'est-ce que le TAISO?
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">une gym sur tatami</h5>
+                        <p class="card-text">Son nom signifie "préparation du corps" en japonais, mais le taïso n’est pas un art martial. "À l’origine, il
+                        correspondait à toutes les activités de préparation physique des judokas, explique ainsi Christophe Brunet, de la
+                        Fédération française de judo. Mais depuis une dizaine d’années, le taïso est devenu une activité à part entière et près
+                        de 2 000 clubs en France la proposent à tous ceux qui cherchent à entretenir leur condition physique sans passer par les
+                        rites de combat du judo."
+                        Ici, pas de lutte, les mains serrées sur la veste du judogi (tenue du judoka), ni d’ukemi waza, ces chutes bruyantes sur
+                        les tatamis. Mais une palette d’exercices traditionnels, souvent ludiques. À première vue, le taïso est assez proche du
+                        renforcement musculaire et de la gymnastique d’entretien. Mais chaque exercice s’inspire de postures ou de gestuelles
+                        empruntées au judo et tout se passe sur… tatamis !</p>
+                       
+                    </div>
+                    <div class="card-footer text-muted">
+                        Les cours de taïso sont assurés par : <br> Emanuelle Vandenstorme ceinture noire 3ième
+                        dan
+                    </div>
+                </div>
+                <div id="lesHoraires">
+                    <table id="courtSchedule">
+                
+                        <thead>
+                            <tr>
+                                <th class="ciant">Catégorie /âge </th>
+                                <th class="ciant">Jours</th>
+                                <th class="ciant">Horaires</th>
+                                <th class="ciant">Professeurs</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="bleu">Baby judo<br> 4ans </td>
+                                <td>Samedi</td>
+                                <td>11h15 à 12h00</td>
+                                <td>Emmanuelle <br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Baby judo <br>5 ans</td>
+                                <td>Samedi</td>
+                                <td>10h15 à 11h15</td>
+                                <td>Emmanuelle<br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Mini poussins(nes)<br>6/7 ans </td>
+                                <td>Lundi<br>Jeudi</td>
+                                <td>17h30 à 18h30</td>
+                                <td>Gérard<br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Poussins(nes)<br>8/9 ans </td>
+                                <td>Lundi<br>Jeudi</td>
+                                <td>17h30 à 18h30</td>
+                                <td>Gérard <br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Benjamins(nes)<br> 10/11 ans</td>
+                                <td>Lundi<br>Jeudi</td>
+                                <td>18h30 à 19h30</td>
+                                <td>Gérard<br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Minimes<br>12/13 ans </td>
+                                <td>Lundi<br>Jeudi</td>
+                                <td>18h30 à 19h30</td>
+                                <td>Gérard<br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Cadets(tes)<br>14/16 ans</td>
+                                <td>Lundi<br>Jeudi</td>
+                                <td>18h30 à 19h30<br>19h30 à 21h00</td>
+                                <td>Gérard<br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Junoirs<br>17/18 ans </td>
+                                <td>Lundi<br>Jeudi</td>
+                                <td>18h30 à 19h30<br>19h30 à 21h00</td>
+                                <td>Gérad<br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Séniors<br>18 ans ....</td>
+                                <td>Lundi<br>Jeudi</td>
+                                <td>18h30 à 19h30<br>19h30 à 21h00</td>
+                                <td>Gérard<br>Ludovic</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Taîso<br>14 ans ....</td>
+                                <td>Mardi<br>Samedi</td>
+                                <td>19h45 à 21h00<br>09h00 à 10h00</td>
+                                <td>Emmanuelle</td>
+                            </tr>
+                            <tr>
+                                <td class="bleu">Self-défense</td>
+                                <td>Jeudi</td>
+                                <td>19h45 à 21hh00</td>
+                                <td>Gérard</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4" class="ciant">Il n'y a jamais cour pendant les vacances scolaire. Pour
+                                    les baby judo le
+                                    dernier cours avant les vacances se fait toujours le premier samedi des vacances
+                                </td>
+                
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <p id="Tableau">Voir les horaires </p>
+                
+                    
+                   
+                    
+
+
             <h2 class="title-2" id="cientures">Les ceintures</h2>
             <div class="divider"></div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, vel dolore a natus quis beatae doloremque

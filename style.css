@@ -11,6 +11,7 @@ p {
 }
 ul ol li {
     font-size: small;
+    list-style: none;
 }
 h4{
     color: #1565c0;
@@ -28,6 +29,9 @@ h4{
         font-size: 1rem;
     }
      ul ol li {
+        font-size: 1rem;
+    }
+    h4 {
         font-size: 1rem;
     }
     
@@ -86,6 +90,9 @@ header {
     color: #1565c0;
     font-size: 1rem;
     margin-top: 60px;
+}
+.list-doc{
+    list-style: none;
 }
 @media screen and (min-width:768px){
     .aside {
@@ -146,3 +153,58 @@ header {
 .office {
     text-align: center;
 }
+/*----------LES COURS----------*/
+.card {
+    margin-top: 60px;
+}
+.card-footer {
+    font-size: 0.8rem;
+}
+#courtSchedule, th, td{
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin:auto; 
+  } 
+ 
+  
+  #Tableau {
+     text-align:center ;
+      color:#1565c0 ;
+     text-transform: capitalize;
+     cursor:pointer; 
+     margin-top: 30px;
+  }
+  #lesHoraires{
+      display: none;
+      margin-top: 35px;
+  }
+  
+  td{
+      font-size: 0.8rem;
+     
+      letter-spacing: 1.5px;
+  }
+  .ciant{
+      background-color: rgba(3, 211, 211, 0.835);
+  }
+  .bleu{
+      background-color: #1565c0;
+      color: #fff;
+  }
+  @media screen and (min-width:768px) {
+    .card-footer {
+    font-size: 1.2rem;
+}
+td {
+    font-size: 1rem;
+}
+}
+  /*-----------LES CIENTURES-----------*/
+.courage {
+    text-align: center;
+}
+.epreuve{
+    color: #1565c0;
+}
+
