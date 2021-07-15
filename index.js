@@ -21,3 +21,4 @@ $('#toaffich').on('click', function () {
         }, 250);
     }
 });
+
