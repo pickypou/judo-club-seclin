@@ -144,7 +144,7 @@ header {
 /*------------LE CLUB--------------*/
 .memberOffice ul li {
     list-style: none;
-   font-size: 1rem;
+   font-size: 0.6rem;
 }
 .colunms{
     display: flex;
@@ -152,14 +152,15 @@ header {
 .office {
     text-align: center;
 } 
-.bureau {
-    font-size: 0.6rem;
-}
-.comite {
-    font-size: 0.6;
-}
+
+
 sup {
     font-size: 0.4;
+}
+@media screen and (min-width:768px){
+    .memberOffice ul li {
+        font-size: 1rem;
+    }
 }
 
 /*----------LES COURS----------*/
@@ -173,10 +174,17 @@ sup {
     width: 60%;
     border-collapse: collapse;
     border: 1px solid black;
-    margin:0 auto; 
-
-    
+    margin:0 auto;   
   } 
+  .taiso {
+      list-style: none;
+      font-size: 0.6rem;
+  }
+  @media screen and (min-width:768px){
+      .taiso {
+          font-size: 1rem;
+      }
+  }
  
   
   #Tableau {
@@ -226,6 +234,27 @@ td {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    
+}
+/*---------EVENEMENTS--------*/
+.event {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 60px;
+}
+.cards {
+    display: none;
+}
+@media screen and (min-width:768px){
+    .event {
+        font-size: 1rem;
+    }
+    .cards {
+        display: block;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
 }
 /*---------FOOTER-----------*/
